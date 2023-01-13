@@ -1,0 +1,23 @@
+{
+    "gosu": {
+        "arch": "amd64",
+        "digest": "c42abbc5d57ba4c33c89e4daf46c33b0173565fbf533ef7a60281cf3283f611f",
+        "distro": "debian-11",
+        "type": "NAMI",
+        "version": "1.16.0-0"
+    },
+    "ini-file": {
+        "arch": "amd64",
+        "digest": "9b5793ab94c63d6384a29c88c06b3e33cf718112edc8358ac54ada72072c3f3e",
+        "distro": "debian-11",
+        "type": "NAMI",
+        "version": "1.4.4-1"
+    },
+    "mysql": {
+        "arch": "amd64",
+        "digest": "3d44eff52386bca9ac44b00acaa4cec89ba93c5128b75262050e932471001742",
+        "distro": "debian-11",
+        "type": "NAMI",
+        "version": "5.7.40-1"
+    }
+}
