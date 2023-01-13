@@ -164,7 +164,7 @@ character_set_server=${DB_DEFAULT_CHARACTER_SET}
 collation_server=${DB_DEFAULT_COLLATE}
 plugin_dir=${DB_BASE_DIR}/lib/plugin
 binlog_format=${BINLOG}
-log-bin=${DB_DEFAULT_LOG_BIN}
+log_bin=${DB_DEFAULT_LOG_BIN}
 server-id=${DEFAULT_SERVER_ID}
 
 [client]

@@ -99,10 +99,12 @@ export MYSQL_DEFAULT_BIND_ADDRESS="0.0.0.0"
 export DB_DEFAULT_BIND_ADDRESS="$MYSQL_DEFAULT_BIND_ADDRESS" # only used at build time
 export DEFAULT_BINLOG="ROW"
 export BINLOG="$DEFAULT_BINLOG"
-export LOG_BIN="mysql-bin"
+export LOG_BIN="ON"
 export DB_DEFAULT_LOG_BIN="$LOG_BIN"
 export DB_SERVER_ID="1"
 export DEFAULT_SERVER_ID="$DB_SERVER_ID"
+export LOGBIN="mysql-bin"
+export EXLOGBIN=${LOGBIN}
 
 
 # MySQL authentication.
